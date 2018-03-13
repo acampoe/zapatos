@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zapatos</string>
+    <string name="cotizador">Quote</string>
+    <string name="brand">Brand</string>
+    <string name="sexo">Genre</string>
+    <string name="estilo">Shoe Style</string>
+    <string name="Cantidad">Quatity</string>
+    <string name="cotizar">Go</string>
+    <string name="total">Price</string>
+    <string name="hombre">Men</string>
+    <string name="mujer">Women</string>
+    <string name="Clasico">Classic</string>
+    <string name="zapatilla">Tennis-Running</string>
+    <string name="Nike">Nike</string>
+    <string name="Adidas">Adidas</string>
+    <string name="Puma">Puma</string>
+</resources>

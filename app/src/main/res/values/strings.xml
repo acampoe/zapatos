@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Zapatos</string>
+    <string name="cotizador">Cotizador</string>
+    <string name="brand">Marca</string>
+    <string name="sexo">Sexo</string>
+    <string name="estilo">Estilo de Zapato</string>
+    <string name="Cantidad" >Cantidad</string>
+    <string name="cotizar">Cotizar</string>
+    <string name="total">Precio Total:</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="Clasico">Clásico</string>
+    <string name="zapatilla">Zapatilla</string>
+    <string name="Nike">Nike</string>
+    <string name="Adidas">Adidas</string>
+    <string name="Puma">Puma</string>
+    <string-array name="generos">
+        <item>@string/hombre</item>
+        <item>@string/mujer</item>
+    </string-array>
+    <string-array name="estilos">
+        <item>@string/Clasico</item>
+        <item>@string/zapatilla</item>
+    </string-array>
+    <string-array name="marcas">
+        <item>@string/Nike</item>
+        <item>@string/Adidas</item>
+        <item>@string/Puma</item>
+    </string-array>
 </resources>

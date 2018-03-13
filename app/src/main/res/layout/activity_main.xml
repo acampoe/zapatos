@@ -6,13 +6,100 @@
     android:layout_height="match_parent"
     tools:context="com.movil.zapatos.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/lblCotizador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cotizador"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/brand"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/cmbMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/lblGerne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sexo"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/cmbSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/lblTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/estilo"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/cmbEstilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtCantidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/Cantidad"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <Button
+                android:id="@+id/cmdCotizar"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cotizar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lblTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/total"
+                android:textAlignment="textEnd"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
