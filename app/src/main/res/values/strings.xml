@@ -27,4 +27,6 @@
         <item>@string/Adidas</item>
         <item>@string/Puma</item>
     </string-array>
+    <string name="error">Ingrese Cantidad</string>
+    <string name="error1">No debe ser 0</string>
 </resources>

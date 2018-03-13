@@ -7,7 +7,7 @@
     <string name="estilo">Shoe Style</string>
     <string name="Cantidad">Quatity</string>
     <string name="cotizar">Go</string>
-    <string name="total">Price</string>
+    <string name="total">Price:</string>
     <string name="hombre">Men</string>
     <string name="mujer">Women</string>
     <string name="Clasico">Classic</string>
@@ -15,4 +15,6 @@
     <string name="Nike">Nike</string>
     <string name="Adidas">Adidas</string>
     <string name="Puma">Puma</string>
+    <string name="error">Please insert a valid quantity</string>
+    <string name="error1">Please insert more than 0</string>
 </resources>

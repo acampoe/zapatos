@@ -68,8 +68,7 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="@string/Cantidad"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="number" />
 
             <Button
                 android:id="@+id/cmdCotizar"
@@ -77,6 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="cotizar"
                 android:text="@string/cotizar" />
         </LinearLayout>
 
@@ -99,6 +99,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textAlignment="textEnd"
                 android:textSize="24sp" />
         </LinearLayout>
     </LinearLayout>
